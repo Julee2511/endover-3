@@ -85,7 +85,7 @@ const Footer: FC = () => {
             <ul className="pl-5 lg:mt-10 md:mt-0 sm:mt-10 ">
               {footerLinks.slice(5, 10).map((item, index) => (
                 <li key={index} className="mb-5">
-                  <Link href="#" className="text-14 relative text-muted hover:text-primary hover:before:border-primary before:content-[''] before:absolute before:w-2 before:h-2 before:border-t-2 before:border-r-2 before:top-1 before:-left-5 before:rotate-45">
+                  <Link href="#" className="text-14 relative text-black hover:text-primary hover:before:border-primary before:content-[''] before:absolute before:w-2 before:h-2 before:border-t-2 before:border-r-2 before:top-1 before:-left-5 before:rotate-45">
                     {item.link}
                   </Link>
                 </li>   
