@@ -5,7 +5,7 @@ export const menuItems = [
   { name: "Portfolio", href: "#portfolio" },
   { name: "Testimonials", href: "#testimonials" },
   { name: "Blog", href: "/#blog" },
-  { name: "Footerss", href: "/#footerss" },
+  
 ];
 
 export const helpdata: { icon: string; title: string; text: string }[] = [
@@ -240,24 +240,6 @@ export const footerLinks: { link: string}[] = [
   },
 ];
 
-
-export const footrss: { icon: string;}[] = [
-  {
-    icon: "/images/footer/facebook-f.svg",
-  },
-  {
-    icon: "/images/footer/instagram.svg",
-  },
-  {
-    icon: "/images/footer/linkedin-in.svg",
-  },
-  {
-    icon: "/images/footer/pinterest.svg",
-  },
-  {
-    icon: "/images/footer/x-twitter.svg",
-  },
-];
 
 
 export const Reviews: {
