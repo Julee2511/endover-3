@@ -207,7 +207,7 @@ export const Eventdata: {
   },
 ];
 
-export const footerLinks: { link: string}[] = [
+export const footerLinks: { link: string;}[] = [
   {
     link: "Website Design",
   },
